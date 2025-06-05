@@ -98,4 +98,21 @@ image_cache/
 *.log
 
 # Documentation drafts
-*.draft.md 
+*.draft.md
+
+# --- Project-specific ignores (for deployment) ---
+# Only keep RAW_recipes.csv, ingr_map.pkl, and images/ for deployment
+PP_recipes.csv
+interactions_validation.csv
+interactions_train.csv
+interactions_test.csv
+RAW_interactions.csv
+PP_users.csv
+ingr_map.pkl
+RAW_recipes.csv
+
+
+# Python cache
+__pycache__/
+
+# --- End of project-specific ignores --- 
